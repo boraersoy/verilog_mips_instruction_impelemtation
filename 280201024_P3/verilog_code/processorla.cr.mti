@@ -1,0 +1,71 @@
+C:/intelFPGA/18.1/processor.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/processor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} C:/intelFPGA/18.1/adder.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/intelFPGA/18.1/control.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} C:/intelFPGA/18.1/mult2_to_1_4.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/mult2_to_1_4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mult2_to_1_4
+
+Top level modules:
+	mult2_to_1_4
+
+} {} {}} C:/intelFPGA/18.1/mult2_to_1_32.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/mult2_to_1_32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mult2_to_1_32
+
+Top level modules:
+	mult2_to_1_32
+
+} {} {}} C:/intelFPGA/18.1/shift.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/shift.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift
+
+Top level modules:
+	shift
+
+} {} {}} C:/intelFPGA/18.1/signext.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/signext.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module signext
+
+Top level modules:
+	signext
+
+} {} {}} C:/intelFPGA/18.1/alucont.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/alucont.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alucont
+
+Top level modules:
+	alucont
+
+} {} {}} C:/intelFPGA/18.1/shift_2.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/shift_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/intelFPGA/18.1/alu32.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/alu32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu32
+
+Top level modules:
+	alu32
+
+} {} {}}

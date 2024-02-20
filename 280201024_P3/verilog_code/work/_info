@@ -1,0 +1,220 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ersoy/OneDrive/Desktop/280201024_P3/verilog_code
+vadder
+Z1 !s110 1704224929
+!i10b 1
+!s100 Y;`Fz?LjC0QzPeNWf8_U<1
+IkFMY1eZWC92UR[DY^Z@>a3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1703941015
+8C:/intelFPGA/18.1/adder.v
+FC:/intelFPGA/18.1/adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1704224929.000000
+!s107 C:/intelFPGA/18.1/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu32
+R1
+!i10b 1
+!s100 >h21]A?_2MeF1b_1nR;lV3
+I9[2MW1;_UN2JOXjkj=Flf0
+R2
+R0
+w1704205575
+8C:/intelFPGA/18.1/alu32.v
+FC:/intelFPGA/18.1/alu32.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1704224928.000000
+!s107 C:/intelFPGA/18.1/alu32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/alu32.v|
+!i113 1
+R5
+R6
+valucont
+Z8 !s110 1704224928
+!i10b 1
+!s100 nDgOZgLBMG7`I8`S<ZalL3
+I5XWQao^PGjaKF7:1gKAg;1
+R2
+R0
+w1704210707
+8C:/intelFPGA/18.1/alucont.v
+FC:/intelFPGA/18.1/alucont.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/18.1/alucont.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/alucont.v|
+!i113 1
+R5
+R6
+vcontrol
+R8
+!i10b 1
+!s100 0=Z4fe^MR;YdX5dacHXC`1
+IaYzdPVaX`=<8A]7RWJ?Sm0
+R2
+R0
+w1704212562
+8C:/intelFPGA/18.1/control.v
+FC:/intelFPGA/18.1/control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/18.1/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/control.v|
+!i113 1
+R5
+R6
+vmult2_to_1_32
+R8
+!i10b 1
+!s100 ^aXF>kbOQm5iDYT=bV7M11
+IlzWCG<XM85=c@71:VD0:M1
+R2
+R0
+Z9 w1703595825
+8C:/intelFPGA/18.1/mult2_to_1_32.v
+FC:/intelFPGA/18.1/mult2_to_1_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/18.1/mult2_to_1_32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/mult2_to_1_32.v|
+!i113 1
+R5
+R6
+vmult2_to_1_4
+R1
+!i10b 1
+!s100 9GX>En?3Z4jm5>JVij^P;1
+I5L@3^ORSFcoYiDl[HeVl51
+R2
+R0
+w1704134550
+8C:/intelFPGA/18.1/mult2_to_1_4.v
+FC:/intelFPGA/18.1/mult2_to_1_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/18.1/mult2_to_1_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/mult2_to_1_4.v|
+!i113 1
+R5
+R6
+vprocessor
+R8
+!i10b 1
+!s100 8kZlDDPHTC99zgnfhN<Re0
+I7mPcigQ=a]O<MCeMY4P?m3
+R2
+R0
+w1704214507
+8C:/intelFPGA/18.1/processor.v
+FC:/intelFPGA/18.1/processor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/18.1/processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/processor.v|
+!i113 1
+R5
+R6
+vshift
+R8
+!i10b 1
+!s100 GWP55OEfIRVA_6M>iSY8d2
+IPIKU>[W4RFJdGcXHC3j1D3
+R2
+R0
+R9
+8C:/intelFPGA/18.1/shift.v
+FC:/intelFPGA/18.1/shift.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/18.1/shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/shift.v|
+!i113 1
+R5
+R6
+vshifter
+R8
+!i10b 1
+!s100 :>RCloPb>^SAU5D]^n]Aj0
+Iz?AJ`5NN1oacF2N@m5<=_0
+R2
+R0
+w1704189871
+8C:/intelFPGA/18.1/shift_2.v
+FC:/intelFPGA/18.1/shift_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA/18.1/shift_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/shift_2.v|
+!i113 1
+R5
+R6
+vsignext
+R1
+!i10b 1
+!s100 JAEfRFLIAaX=@V<j@h[jS1
+IAU<PcMOkUe?idb=34czO:0
+R2
+R0
+w1703940982
+8C:/intelFPGA/18.1/signext.v
+FC:/intelFPGA/18.1/signext.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA/18.1/signext.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA/18.1/signext.v|
+!i113 1
+R5
+R6

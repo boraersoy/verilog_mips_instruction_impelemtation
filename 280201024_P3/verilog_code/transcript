@@ -1,0 +1,66 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+project open C:/intelFPGA/18.1/processorla
+# Loading project processorla
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 20:06:35 on Jan 02,2024
+# Loading work.processor
+# Loading work.mult2_to_1_4
+# Loading work.mult2_to_1_32
+# Loading work.alu32
+# Loading work.adder
+# Loading work.control
+# Loading work.signext
+# Loading work.alucont
+# Loading work.shift
+add wave -position end sim:/processor/*
+run
+# Instruction Memory[0]= 18  Data Memory[0]= 00   Register[0]= 00000000
+# Instruction Memory[1]= ec  Data Memory[1]= 00   Register[1]= 00000014
+# Instruction Memory[2]= e0  Data Memory[2]= 00   Register[2]= 00000040
+# Instruction Memory[3]= 20  Data Memory[3]= 01   Register[3]= 00000060
+# Instruction Memory[4]= 19  Data Memory[4]= 00   Register[4]= 00000010
+# Instruction Memory[5]= cd  Data Memory[5]= 00   Register[5]= 00000030
+# Instruction Memory[6]= 00  Data Memory[6]= 00   Register[6]= 00000032
+# Instruction Memory[7]= 0e  Data Memory[7]= 05   Register[7]= 00000042
+# Instruction Memory[8]= 1a  Data Memory[8]= 00   Register[8]= 00000014
+# Instruction Memory[9]= ed  Data Memory[9]= 00   Register[9]= 00000028
+# Instruction Memory[10]= 00  Data Memory[10]= 00   Register[10]= 0000000b
+# Instruction Memory[11]= 02  Data Memory[11]= 10   Register[11]= 0000000d
+# Instruction Memory[12]= 1e  Data Memory[12]= 00   Register[12]= 0000000a
+# Instruction Memory[13]= ed  Data Memory[13]= 00   Register[13]= 0000003c
+# Instruction Memory[14]= 00  Data Memory[14]= 01   Register[14]= 00000008
+# Instruction Memory[15]= 20  Data Memory[15]= 00   Register[15]= 00000050
+# Instruction Memory[16]= 18  Data Memory[16]= 00   Register[16]= 0000005a
+# Instruction Memory[17]= ec  Data Memory[17]= 00   Register[17]= xxxxxxxx
+# Instruction Memory[18]= e0  Data Memory[18]= 01   Register[18]= xxxxxxxx
+# Instruction Memory[19]= 1f  Data Memory[19]= 10   Register[19]= xxxxxxxx
+# Instruction Memory[20]= 1b  Data Memory[20]= 00   Register[20]= xxxxxxxx
+# Instruction Memory[21]= 00  Data Memory[21]= 00   Register[21]= xxxxxxxx
+# Instruction Memory[22]= 00  Data Memory[22]= 00   Register[22]= xxxxxxxx
+# Instruction Memory[23]= 18  Data Memory[23]= 25   Register[23]= xxxxxxxx
+# Instruction Memory[24]= 1c  Data Memory[24]= 00   Register[24]= xxxxxxxx
+# Instruction Memory[25]= de  Data Memory[25]= 00   Register[25]= xxxxxxxx
+# Instruction Memory[26]= 00  Data Memory[26]= 01   Register[26]= xxxxxxxx
+# Instruction Memory[27]= 0f  Data Memory[27]= 24   Register[27]= xxxxxxxx
+# Instruction Memory[28]= 1d  Data Memory[28]= xx   Register[28]= xxxxxxxx
+# Instruction Memory[29]= de  Data Memory[29]= xx   Register[29]= xxxxxxxx
+# Instruction Memory[30]= 00  Data Memory[30]= xx   Register[30]= xxxxxxxx
+#                    0PC 00000000  SUM 00000012   INST 18ece020   REGISTER 00000010 00000030 00000032 00000014 
+#                   20PC 00000004  SUM 00000018   INST 19cd000e   REGISTER 00000010 00000030 00000032 00000014 
+#                   60PC 00000008  SUM 00000014   INST 1aed0002   REGISTER 00000010 00000030 00000032 00000014 
+run
+#                  100PC 0000000c  SUM 00000032   INST 1eed0020   REGISTER 00000010 00000030 00000032 00000014 
+#                  140PC 00000010  SUM ffffffe5   INST 18ece01f   REGISTER 00000010 00000030 00000032 00000014 
+#                  180PC 00000014  SUM 00000000   INST 1b000018   REGISTER 00000010 00000030 00000032 00000014 
+run
+#                  220PC 00000018  SUM 0000004d   INST 1cde000f   REGISTER 00000010 00000030 00000032 00000014 
+#                  260PC 0000001c  SUM 0000004d   INST 1dde000f   REGISTER 00000010 00000030 00000032 00000014 
+run
+#                  300PC 00000020  SUM ffffffef   INST 18ece020   REGISTER 00000010 00000030 00000032 00000014 
+#                  340PC 00000024  SUM 00000018   INST 19cd000e   REGISTER 00000010 00000030 00000032 00000014 
+#                  380PC 00000028  SUM fffffff1   INST 1aed0002   REGISTER 00000010 00000030 00000032 00000014 
+# ** Note: $finish    : C:/intelFPGA/18.1/processor.v(126)
+#    Time: 400 ps  Iteration: 0  Instance: /processor
+# 1
+# Break in Module processor at C:/intelFPGA/18.1/processor.v line 126
